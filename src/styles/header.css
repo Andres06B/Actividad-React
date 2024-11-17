@@ -1,0 +1,123 @@
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background-color: #121212;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.navbar-logo {
+  width: 40px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.logo-title {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 20px;
+  color: black;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #f3a847;
+  transform: translateY(-3px);
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 30px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-toggler:hover {
+  transform: rotate(90deg);
+}
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: black;
+}
+
+.menu-icon:hover {
+  color: #f3a847;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+  }
+
+  .navbar-collapse.show {
+    display: flex;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+  }
+}
+
+.custom-offcanvas .offcanvas-header {
+  background-color: #333;
+  color: #fff;
+  border-bottom: 1px solid #444;
+  padding: 20px;
+}
+
+.custom-offcanvas .offcanvas-body {
+  background-color: #222;
+  padding: 30px;
+}
+
+.custom-offcanvas .nav-link {
+  font-size: 18px;
+  color: #bbb;
+  padding: 12px 20px;
+  transition: color 0.3s ease;
+}
+
+.custom-offcanvas .nav-link:hover {
+  color: #f3a847;
+}

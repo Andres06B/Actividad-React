@@ -1,0 +1,19 @@
+Actividad Electiva Libre 
+
+Entorno de Desarrollo: 
+
+- React
+
+Tecnologías:
+
+- HTML
+- CSS
+- JavaScript
+- React-Botstrap
+
+Integrantes:
+
+- Andres Berrio
+- Santiago Machacon 
+- Eduardo Solano
+- Luis Eduardo Meza

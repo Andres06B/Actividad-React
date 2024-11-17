@@ -1,0 +1,71 @@
+
+.about-title {
+    font-size: 4rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  
+  .about-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  
+  .about-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  .about-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  .about-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease, filter 0.3s ease;
+  }
+  
+  
+  .about-image:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+  }
+  
+  
+  .about-content {
+    text-align: left;
+    max-width: 700px;
+  }
+  
+  .about-content h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555555;
+  }
+  
